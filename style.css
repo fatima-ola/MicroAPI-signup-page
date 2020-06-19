@@ -1,0 +1,96 @@
+body {
+    padding-top: 170px;
+    background-color:#ffffff
+}
+
+.container{
+  border-radius: 15px;
+}
+.col-sm-4 {
+  background: #31AA52;
+  color: #ffffff;
+  padding-left: 30px;
+  border-radius: 15px;
+}
+
+.smart{
+  text-align: center;
+}
+
+h4{
+  margin-top: 40px;
+}
+
+h1{
+  padding-top: 100px;
+  word-spacing: 10px;
+  font-family: 'Offside', cursive;
+}
+
+.account{
+  padding-top: 30px;
+  color: #31AA52;
+  font-family: 'Offside', cursive;
+}
+
+#register{
+  color: #31AA52;
+}
+
+.other {
+  background: #FFFFFF;
+  color: #000000;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.form-group{
+  width: 300px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.p {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.p a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.social{
+  border-radius: 30px;
+ cursor: pointer;
+  border: 2px solid #000000;
+  color: #000;
+  display: inline-block;
+  height: 30px;
+  line-height: 25px;
+  margin: auto 3px;
+  width: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.form-group { position: relative; }
+.form-group input { text-indent: 30px; background-color: rgb(245, 245, 245);}
+.form-group .icon { 
+  position: absolute;
+  top: 12px;
+  left: 7px;
+  font-size: 15px;
+}
+
+.btn-outline-success{
+  border-radius: 15px
+}
+/* Media Queries */
+
+@media (max-width:425px) and (min-width: 320px) {
+  #logoid {
+    text-align: center;
+  }
+}
